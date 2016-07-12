@@ -705,6 +705,7 @@ form#advSearchForm.resultsPage {
 /* additional shading */
 #playerbox {
 	position: relative;
+	z-index: 500;
 	padding: 0 12px 5px 12px;
 	background-color: #404040;
 	color: #dddddd;
