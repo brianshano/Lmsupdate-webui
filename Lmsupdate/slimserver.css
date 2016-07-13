@@ -324,6 +324,8 @@ div.pagetitleWithIcon {
 	padding: 6px 10px;
 	color: #eee;
 	background-color: #404040;
+	-webkit-box-shadow: 0px 5px 3px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 5px 3px -1px rgba(0,0,0,0.75);
 	box-shadow: 0px 3px 3px -1px rgba(0,0,0,0.75);
 }
 
@@ -371,6 +373,8 @@ div.pagetitleWithIcon {
 	position: relative;
 	background-color: #404040;
 	z-index: 1002;
+	-webkit-box-shadow: 0px 2px 3px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 3px -1px rgba(0,0,0,0.75);
 	box-shadow: 0px 2px 3px -1px rgba(0,0,0,0.75);
 }
 
@@ -564,6 +568,10 @@ div.pagetitleWithIcon {
 	margin: 0px;
 }
 
+.thumbwrap img, #browsedbList img {
+	padding-bottom: 6px;
+}
+
 .thumbwrap li {
 	display: -moz-inline-box; /* Mozilla */
 	display: inline-block;  /* Op, Saf, IE \*/
@@ -640,11 +648,17 @@ div.thumbwrap {
 .mouseOver {
 	background-color: #ddd;
 	border-radius: 2px;	/* default 5px */
+	-webkit-box-shadow: 0;
+	-moz-box-shadow: 0;
 	box-shadow: 0;
+	-webkit-transition: -webkit-box-shadow 0.5s ease-out;
+	-moz-transition: -moz-box-shadow 0.5s ease-out;
 	transition: box-shadow 0.5s ease-out;
 }
 
 .mouseOver:hover {
+	-webkit-box-shadow: inset 0px 2px 2px -1px rgba(0,0,0,0.3);
+	-moz-box-shadow: inset 0px 2px 2px -1px rgba(0,0,0,0.3);
 	box-shadow: inset 0px 2px 2px -1px rgba(0,0,0,0.3);
 }
 
@@ -709,6 +723,8 @@ form#advSearchForm.resultsPage {
 	padding: 0 12px 5px 12px;
 	background-color: #404040;
 	color: #dddddd;
+	-webkit-box-shadow: 0px 2px 3px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 3px -1px rgba(0,0,0,0.75);
 	box-shadow: 0px 2px 3px -1px rgba(0,0,0,0.75);
 }
 
