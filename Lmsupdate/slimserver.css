@@ -330,6 +330,7 @@ div.pagetitleWithIcon {
 }
 
 #crumblist a { color: #eee; }	/*default #dddddd */
+#crumblist a:hover { color: #00918d; }	/*additional */
 
 #content { position: relative; }
 
@@ -735,6 +736,7 @@ form#advSearchForm.resultsPage {
 }
 
 #playerbox a { color: #dddddd; }
+#playerbox a:hover { color: #00918d; } /* additional*/
 
 #ctrlBar { margin-bottom: 10px; }
 
@@ -1052,6 +1054,9 @@ form#advSearchForm.resultsPage {
 
 #linkedSongInfoItems a {
 	font-weight: bold;
+}
+#linkedSongInfoItems a:hover {
+	color: #00918d;
 }
 
 #linkedSongInfoItems img {
