@@ -647,7 +647,7 @@ div.thumbwrap {
 
 /* additional hover effect */
 .mouseOver {
-	background-color: #ddd;
+	background-color: #dddddd;
 	border-radius: 2px;	/* default 5px */
 	-webkit-box-shadow: 0;
 	-moz-box-shadow: 0;
@@ -1631,7 +1631,7 @@ td.sort-asc .x-grid3-hd-inner, td.x-grid3-hd-menu-open .x-grid3-hd-inner {
 
 /* Current song marker*/
 .currentSong {
-	background-color: #ddd;;
+	background-color: #dddddd;
 	border-radius: 2px;
 	-webkit-box-shadow: inset 0px 2px 2px -1px rgba(0,0,0,0.3);
 	-moz-box-shadow: inset 0px 2px 2px -1px rgba(0,0,0,0.3);
