@@ -337,6 +337,7 @@ div.pagetitleWithIcon {
 #pagebar {
 	min-height: 13px;
 	background-color: #404040; /* default #bfbfbf */
+	margin-left: 4px;	/*additional */
 }
 
 #pagebar a, #pagebar span {
@@ -378,6 +379,17 @@ div.pagetitleWithIcon {
 	-moz-box-shadow: 0px 2px 3px -1px rgba(0,0,0,0.75);
 	box-shadow: 0px 2px 3px -1px rgba(0,0,0,0.75);
 }
+
+#playlistPanel .pagerbox {
+	position: relative;
+	background-color: #404040;
+	z-index: 1002;
+	-webkit-box-shadow: 0px 2px 3px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 3px -1px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 3px -1px rgba(0,0,0,0.75);
+}
+
+#playlistPanel .pagerbox_content { margin-left: 8px }
 
 /* Home menu */
 .smallIcon .browsedbListItem,
@@ -843,7 +855,7 @@ form#advSearchForm.resultsPage {
 }
 
 #ctrlVolume {
-	background-image: url(html/images/volume_levels.gif);
+	background-image: url(html/images/volume_levels.png);
 }
 
 .ctrlVolume0 { background-position: 0 0; }
@@ -892,7 +904,7 @@ form#advSearchForm.resultsPage {
 #ctrlProgress img {
 	height: 10px;
 	width: 5px;
-	background: url(html/images/progress.gif) no-repeat top left;
+	background: url(html/images/progress.png) no-repeat top left;
 }
 
 #ctrlProgress img.progressFillLeft {
@@ -958,7 +970,7 @@ form#advSearchForm.resultsPage {
 #collapsedPlayerPanel {
 	width: 100%;
 	height: 16px;
-	background: url(html/images/track_info.gif) repeat 0 -16px;
+	background: url(html/images/track_info.png) repeat 0 -16px;
 	position: relative;
 }
 
@@ -968,7 +980,7 @@ form#advSearchForm.resultsPage {
 	top: 0;
 	width: 9px;
 	height: 16px;
-	background: url(html/images/track_info.gif) no-repeat top left;
+	background: url(html/images/track_info.png) no-repeat top left;
 }
 
 #collapsedPlayerPanel .right {
@@ -977,7 +989,7 @@ form#advSearchForm.resultsPage {
 	top: 0;
 	width: 9px;
 	height: 16px;
-	background: url(html/images/track_info.gif) no-repeat 0 -32px;
+	background: url(html/images/track_info.png) no-repeat 0 -32px;
 }
 
 #collapsedPlayerPanel .icon {
@@ -1001,7 +1013,7 @@ form#advSearchForm.resultsPage {
 	top: 0;
 	right: 9px;
 	padding-left: 5px;
-	background: url(html/images/track_info.gif) repeat 0 -16px;
+	background: url(html/images/track_info.png) repeat 0 -16px;
 }
 
 #ctrlPlaytimeCollapsed,
